@@ -1,12 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
+import {UsersData} from "../features/FakeData";
 
 export const userSlice = createSlice(
     {
         name: "users",
-        initialState: {value: []},
+        initialState: {value: UsersData},
         reducers: {
             addUser: (state, action) => {
-                
+
             }
         }
     }
